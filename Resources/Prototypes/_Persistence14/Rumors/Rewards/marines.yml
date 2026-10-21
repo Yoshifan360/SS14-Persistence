@@ -56,5 +56,5 @@
   price: 7500
   product: WeaponRifleM45c
   icon:
-    sprite: /_RMC14/Objects/Weapons/Guns/m54c.rsi
+    sprite: _RMC14/Objects/Weapons/Guns/m54c.rsi
     state: icon
