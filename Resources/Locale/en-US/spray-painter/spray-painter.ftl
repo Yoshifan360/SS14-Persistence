@@ -321,3 +321,14 @@ spray-painter-style-itemheadsets-centcom = CentCom
 spray-painter-style-itemheadsets-freelance = Freelance
 spray-painter-style-itemheadsets-wizard = Wizard
 spray-painter-style-itemheadsets-ninja = Ninja
+
+# Pill Canisters
+spray-painter-style-pillcanister-crimson = Crimson
+spray-painter-style-pillcanister-red = Red
+spray-painter-style-pillcanister-orange = Orange
+spray-painter-style-pillcanister-yellow = Yellow
+spray-painter-style-pillcanister-lime = Lime
+spray-painter-style-pillcanister-green = Green
+spray-painter-style-pillcanister-cyan = Cyan
+spray-painter-style-pillcanister-blue = Blue
+spray-painter-style-pillcanister-purple = Purple
