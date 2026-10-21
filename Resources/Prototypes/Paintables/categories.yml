@@ -32,6 +32,6 @@
   - ItemHeadsets
 
 - type: paintableGroupCategory
-  id: "Pill Canisters"
+  id: PillCanisters
   groups:
   - PillBottle
