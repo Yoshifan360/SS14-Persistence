@@ -1,5 +1,5 @@
 - type: paintableGroup
-  id: pillbottle
+  id: PillBottle
   cost: 1
   defaultStyle: Pill_Canister_Orange
   styles:
