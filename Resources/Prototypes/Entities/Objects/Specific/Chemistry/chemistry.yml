@@ -653,7 +653,7 @@
 - type: entity
   name: crimson pill canister
   id: Pill_Canister_Crimson
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -683,7 +683,7 @@
 - type: entity
   name: red pill canister
   id: Pill_Canister_Red
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -713,7 +713,7 @@
 - type: entity
   name: orange pill canister
   id: Pill_Canister_Orange
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -743,7 +743,7 @@
 - type: entity
   name: yellow pill canister
   id: Pill_Canister_Yellow
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -773,7 +773,7 @@
 - type: entity
   name: lime pill canister
   id: Pill_Canister_Lime
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -803,7 +803,7 @@
 - type: entity
   name: green pill canister
   id: Pill_Canister_Green
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -833,7 +833,7 @@
 - type: entity
   name: cyan pill canister
   id: Pill_Canister_Cyan
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -863,7 +863,7 @@
 - type: entity
   name: blue pill canister
   id: Pill_Canister_Blue
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
@@ -893,7 +893,7 @@
 - type: entity
   name: purple pill canister
   id: Pill_Canister_Purple
-  parent: BaseStorageItem
+  parent: PillCanister
   description: Holds up to 10 pills.
   components:
   - type: Item
