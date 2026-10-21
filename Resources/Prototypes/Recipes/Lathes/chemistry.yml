@@ -118,14 +118,8 @@
   materials:
     Glass: 50
     Wood: 20
-
-- type: latheRecipe
-  id: ChemistryPillCanisterOrange
-  result: Pill_Canister_Orange
-  completetime: 2
-  materials:
-    Plastic: 25
     
+
 # Moffstation - Begin - Replaced by modular HUDs
 #- type: latheRecipe
 #  id: ClothingEyesGlassesChemical
