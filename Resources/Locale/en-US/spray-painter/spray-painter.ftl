@@ -323,12 +323,12 @@ spray-painter-style-itemheadsets-wizard = Wizard
 spray-painter-style-itemheadsets-ninja = Ninja
 
 # Pill Canisters
-spray-painter-style-pillcanister-crimson = Crimson
-spray-painter-style-pillcanister-red = Red
-spray-painter-style-pillcanister-orange = Orange
-spray-painter-style-pillcanister-yellow = Yellow
-spray-painter-style-pillcanister-lime = Lime
-spray-painter-style-pillcanister-green = Green
-spray-painter-style-pillcanister-cyan = Cyan
-spray-painter-style-pillcanister-blue = Blue
-spray-painter-style-pillcanister-purple = Purple
+spray-painter-style-pillbottle-crimson = Crimson
+spray-painter-style-pillbottle-red = Red
+spray-painter-style-pillbottle-orange = Orange
+spray-painter-style-pillbottle-yellow = Yellow
+spray-painter-style-pillbottle-lime = Lime
+spray-painter-style-pillbottle-green = Green
+spray-painter-style-pillbottle-cyan = Cyan
+spray-painter-style-pillbottle-blue = Blue
+spray-painter-style-pillbottle-purple = Purple
