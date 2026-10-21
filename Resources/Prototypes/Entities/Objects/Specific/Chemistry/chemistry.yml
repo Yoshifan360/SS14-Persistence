@@ -661,7 +661,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_crimson.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_crimson.rsi
-    state: pill_canister
+    state: pill_canister_crimson
   - type: Tag
     tags:
       - PillCanister
@@ -691,7 +691,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_red.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_red.rsi
-    state: pill_canister
+    state: pill_canister_red
   - type: Tag
     tags:
       - PillCanister
@@ -721,7 +721,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_orange.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_orange.rsi
-    state: pill_canister
+    state: pill_canister_orange
   - type: Tag
     tags:
       - PillCanister
@@ -751,7 +751,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_yellow.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_yellow.rsi
-    state: pill_canister
+    state: pill_canister_yellow
   - type: Tag
     tags:
       - PillCanister
@@ -781,7 +781,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_lime.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_lime.rsi
-    state: pill_canister
+    state: pill_canister_lime
   - type: Tag
     tags:
       - PillCanister
@@ -811,7 +811,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_green.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_green.rsi
-    state: pill_canister
+    state: pill_canister_green
   - type: Tag
     tags:
       - PillCanister
@@ -841,7 +841,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_cyan.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_cyan.rsi
-    state: pill_canister
+    state: pill_canister_cyan
   - type: Tag
     tags:
       - PillCanister
@@ -871,7 +871,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_blue.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_blue.rsi
-    state: pill_canister
+    state: pill_canister_blue
   - type: Tag
     tags:
       - PillCanister
@@ -901,7 +901,7 @@
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_purple.rsi
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_purple.rsi
-    state: pill_canister
+    state: pill_canister_purple
   - type: Tag
     tags:
       - PillCanister
