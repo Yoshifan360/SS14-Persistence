@@ -649,6 +649,8 @@
       tags:
       - Pill
   - type: Dumpable
+  - type: Paintable
+    group: PillBottle
   
 - type: entity
   name: crimson pill canister
