@@ -3,12 +3,12 @@
   cost: 1
   defaultStyle: Pill_Canister_Orange
   styles:
-    crimson: Pill_Canister_Crimson
-    red: Pill_Canister_Red
-    orange: Pill_Canister_Orange
-    yellow: Pill_Canister_Yellow
-    lime: Pill_Canister_Lime
-    green: Pill_Canister_Green
-    cyan: Pill_Canister_Cyan
-    blue: Pill_Canister_Blue
-    purple: Pill_Canister_Purple
+    crimson: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_crimson.rsi
+    red: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_red.rsi
+    orange: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_orange.rsi
+    yellow: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_yellow.rsi
+    lime: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_lime.rsi
+    green: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_green.rsi
+    cyan: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_cyan.rsi
+    blue: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_blue.rsi
+    purple: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_purple.rsi
