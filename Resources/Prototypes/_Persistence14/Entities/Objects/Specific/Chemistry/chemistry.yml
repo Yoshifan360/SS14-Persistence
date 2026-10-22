@@ -17,7 +17,6 @@
   - type: Sprite
     sprite: _Persistence14/Objects/Specific/Chemistry/pill_canister_colors.rsi
     state: pill_canister_red
-    group: PillBottle
 
 - type: entity
   name: orange pill canister
