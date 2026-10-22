@@ -9,10 +9,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/beaker.rsi
     layers:
-      - state: beaker
-      - state: beaker1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
+    - state: beaker
+    - state: beaker1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
   - type: Item
     sprite: Objects/Specific/Chemistry/beaker.rsi
   - type: MeleeWeapon
@@ -108,10 +108,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/beaker.rsi
     layers:
-      - state: beaker
-      - state: beaker1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
+    - state: beaker
+    - state: beaker1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
   - type: Item
     sprite: Objects/Specific/Chemistry/beaker.rsi
   - type: MeleeWeapon
@@ -283,10 +283,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/beaker_large.rsi
     layers:
-      - state: beakerlarge
-      - state: beakerlarge1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
+    - state: beakerlarge
+    - state: beakerlarge1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
   - type: Item
     size: Normal
     sprite: Objects/Specific/Chemistry/beaker_large.rsi
@@ -313,7 +313,7 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/beaker_cryostasis.rsi
     layers:
-      - state: beakernoreact
+    - state: beakernoreact
   - type: SolutionContainerVisuals
     maxFillLevels: 0
 
@@ -328,7 +328,7 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
     layers:
-      - state: beakerbluespace
+    - state: beakerbluespace
   - type: SolutionContainerVisuals
     maxFillLevels: 0
   - type: Item
@@ -343,10 +343,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
     layers:
-      - state: dropper
-      - state: dropper1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
+    - state: dropper
+    - state: dropper1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
   - type: Injector
     ignoreMobs: true
     ignoreClosed: false
@@ -389,10 +389,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
     layers:
-      - state: borgdropper
-      - state: dropper1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
+    - state: borgdropper
+    - state: dropper1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
   - type: Item
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
@@ -406,11 +406,11 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/syringe.rsi
     layers:
-      - state: syringe1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
-      - state: syringe_base0
-        map: ["enum.SolutionContainerLayers.Base"]
+    - state: syringe1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+    - state: syringe_base0
+      map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
     sprite: Objects/Specific/Chemistry/syringe.rsi
     state: "syringe_base0"
@@ -457,10 +457,10 @@
   - type: Sprite
     sprite: Objects/Specific/Chemistry/syringe.rsi
     layers:
-      - state: minisyringe1
-        map: ["enum.SolutionContainerLayers.Fill"]
-        visible: false
-      - state: syringeproj
+    - state: minisyringe1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+    - state: syringeproj
   - type: SolutionContainerVisuals
     maxFillLevels: 3
     fillBaseName: minisyringe
@@ -636,7 +636,7 @@
     state: pill_canister
   - type: Tag
     tags:
-      - PillCanister
+    - PillCanister
   - type: Storage
     grid:
     - 0,0,4,1
@@ -649,275 +649,6 @@
       tags:
       - Pill
   - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-  
-- type: entity
-  name: crimson pill canister
-  id: Pill_Canister_Crimson
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_crimson.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_crimson.rsi
-    state: pill_canister_crimson
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: red pill canister
-  id: Pill_Canister_Red
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_red.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_red.rsi
-    state: pill_canister_red
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: orange pill canister
-  id: Pill_Canister_Orange
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_orange.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_orange.rsi
-    state: pill_canister_orange
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: yellow pill canister
-  id: Pill_Canister_Yellow
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_yellow.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_yellow.rsi
-    state: pill_canister_yellow
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: lime pill canister
-  id: Pill_Canister_Lime
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_lime.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_lime.rsi
-    state: pill_canister_lime
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: green pill canister
-  id: Pill_Canister_Green
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_green.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_green.rsi
-    state: pill_canister_green
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: cyan pill canister
-  id: Pill_Canister_Cyan
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_cyan.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_cyan.rsi
-    state: pill_canister_cyan
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: blue pill canister
-  id: Pill_Canister_Blue
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_blue.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_blue.rsi
-    state: pill_canister_blue
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
-  - type: Paintable
-    group: PillBottle
-
-- type: entity
-  name: purple pill canister
-  id: Pill_Canister_Purple
-  parent: PillCanister
-  description: Holds up to 10 pills.
-  components:
-  - type: Item
-    size: Tiny
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_purple.rsi
-  - type: Sprite
-    sprite: Objects/Specific/Chemistry/pill_canister_colors/pill_canister_purple.rsi
-    state: pill_canister_purple
-  - type: Tag
-    tags:
-      - PillCanister
-  - type: Storage
-    grid:
-    - 0,0,4,1
-    quickInsert: true
-    areaInsert: true
-    areaInsertRadius: 1
-    storageInsertSound: /Audio/Effects/pill_insert.ogg
-    storageRemoveSound: /Audio/Effects/pill_remove.ogg
-    whitelist:
-      tags:
-      - Pill
-  - type: Dumpable
+  - type: Appearance
   - type: Paintable
     group: PillBottle
