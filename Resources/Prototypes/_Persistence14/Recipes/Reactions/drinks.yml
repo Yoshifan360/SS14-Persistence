@@ -50,6 +50,6 @@
     PwrGame:
       amount: 1
     XenoBasher:
-      amount: 1
+      amount: 1  
   products:
-    Helldiver: 2
+    Helldiver: 6
