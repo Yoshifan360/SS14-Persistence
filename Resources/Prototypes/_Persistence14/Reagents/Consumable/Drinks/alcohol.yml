@@ -81,4 +81,4 @@
         factor: 2
         satiationType: Thirst
       metabolites:
-        Ethanol: 0.4
+        Ethanol: 0.10
