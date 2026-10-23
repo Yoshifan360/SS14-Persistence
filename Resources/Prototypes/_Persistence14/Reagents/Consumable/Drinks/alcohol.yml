@@ -69,7 +69,7 @@
   flavor: helldiver
   color: "#595951"
   metamorphicSprite:
-    sprite: _Persistence14/Objects/Consumable/Drinks/CherryLimeade.rsi
+    sprite: _Persistence14/Objects/Consumable/Drinks/Helldiver.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -81,4 +81,4 @@
         factor: 2
         satiationType: Thirst
       metabolites:
-        Ethanol: 0.6
+        Ethanol: 0.4
