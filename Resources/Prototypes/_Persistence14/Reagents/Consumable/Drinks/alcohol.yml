@@ -67,7 +67,7 @@
   desc: reagent-desc-helldiver
   physicalDesc: reagent-physical-desc-exhilarating
   flavor: helldiver
-  color: "#ff8000"
+  color: "#595951"
   metamorphicSprite:
     sprite: _Persistence14/Objects/Consumable/Drinks/CherryLimeade.rsi
     state: icon_empty
