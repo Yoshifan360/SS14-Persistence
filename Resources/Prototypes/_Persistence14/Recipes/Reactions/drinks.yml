@@ -45,11 +45,11 @@
     CherryLimeade: 6
 
 - type: reaction
-  id: Helldiver
+  id: helldiver
   reactants:
     PwrGame:
       amount: 1
     XenoBasher:
       amount: 1
   products:
-    Helldiver: 2
+    helldiver: 2
