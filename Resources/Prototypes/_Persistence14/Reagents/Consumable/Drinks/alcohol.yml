@@ -60,7 +60,7 @@
         Ethanol: 0.6
         
 - type: reagent
-  id: Helldiver
+  id: helldiver
   parent: BaseAlcohol
   name: reagent-name-helldiver
   group: Drinks
