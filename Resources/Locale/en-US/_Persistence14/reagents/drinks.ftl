@@ -23,4 +23,4 @@ reagent-physical-desc-cherry-limeade = light red
 # Helldiver
 reagent-name-helldiver = Helldiver
 reagent-desc-helldiver = Makes you feel incredibly patriotic.
-flavor-complex-helldiver = a hot drop
+flavor-complex-helldiver = like a hot drop
