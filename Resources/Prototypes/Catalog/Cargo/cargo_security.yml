@@ -117,3 +117,13 @@
   cost: 6000
   category: cargoproduct-category-name-security
   group: market
+  
+- type: cargoProduct
+  id: SecurityTechFabBoard
+  icon:
+    sprite: Resources/Textures/Structures/Machines/techfab.rsi
+    state: icon
+  product: SecurityTechFabCircuitboard
+  cost: 6000
+  category: cargoproduct-category-name-security
+  group: market2
