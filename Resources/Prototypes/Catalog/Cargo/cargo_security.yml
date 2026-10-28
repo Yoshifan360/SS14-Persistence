@@ -121,9 +121,9 @@
 - type: cargoProduct
   id: SecurityTechFabBoard
   icon:
-    sprite: Resources/Textures/Structures/Machines/techfab.rsi
+    sprite: Clothing/Head/Hats/beret_security.rsi
     state: icon
   product: SecurityTechFabCircuitboard
-  cost: 6000
+  cost: 8500
   category: cargoproduct-category-name-security
-  group: market
+  group: market2
